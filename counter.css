@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url(./imgs/street.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 0 0;
+}
+
+.holder{
+    /* border: 2px solid red; */
+    padding: 3em 3em;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    max-width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.count{
+    color: whitesmoke;
+    font-size: 59px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    color: whitesmoke;
+}
+
+button{
+    padding: 1em 2em;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(300, 47%, 75%);
+    color: hsl(0, 0%, 0%);
+    font-weight: 600;
+}
+.dark{
+    background-color: hsl(0, 0%, 0%);
+    color:hsl(0, 0%, 100%);
+}
+
+#save-el{
+    color: hsl(300, 47%, 75%);
+    font-weight: 900;
+}
